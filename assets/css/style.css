@@ -19,7 +19,8 @@
     font-size: 1.5rem;
 }
 
-#site_header {
+#site_header,
+#info {
     background-color: var(--header-footer-color);
 
     .header_container {
@@ -54,4 +55,14 @@
     >a {
         background-color: var(--primary-page-color);
     }
+}
+
+#info .info_mid>div>div {
+    width: 80px;
+    height: 80px;
+    font-size: 1.5rem;
+}
+
+.info_bottom a {
+    color: var(--primary-page-color);
 }
