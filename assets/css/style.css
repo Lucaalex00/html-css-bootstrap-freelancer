@@ -4,7 +4,7 @@
     --secondary-page-color: rgba(58, 84, 109, 1);
 }
 
-.debug {
+/* .debug {
     border: 2px dashed;
 
     .header_content_left,
@@ -13,7 +13,7 @@
         height: 100px;
     }
 
-}
+} */
 
 .fa-star {
     font-size: 1.5rem;
@@ -66,4 +66,33 @@
 
 .info_bottom a {
     color: var(--primary-page-color);
+}
+
+@media screen and (min-width:768px) {
+    .row {
+        flex-direction: row;
+    }
+
+    .p_container {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    #info {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+
+        .info_top>p,
+        .info_bottom>p {
+            width: 80%;
+            margin: auto;
+        }
+
+        .info_mid>div>div {
+            width: 50px;
+            height: 50px;
+        }
+    }
 }
