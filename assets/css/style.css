@@ -14,3 +14,16 @@
     }
 
 }
+
+#site_header {
+    background-color: var(--header-footer-color);
+
+    .header_container {
+        max-width: 1200px;
+        margin: auto
+    }
+}
+
+#profile {
+    background-color: var(--primary-page-color);
+}
