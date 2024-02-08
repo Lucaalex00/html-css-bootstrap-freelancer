@@ -24,6 +24,7 @@
     }
 }
 
-#profile {
+#profile,
+#about {
     background-color: var(--primary-page-color);
 }
