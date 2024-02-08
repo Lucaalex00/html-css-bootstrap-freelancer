@@ -20,7 +20,8 @@
 }
 
 #site_header,
-#info {
+#info,
+#site_footer {
     background-color: var(--header-footer-color);
 
     .header_container {
