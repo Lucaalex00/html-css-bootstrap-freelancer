@@ -68,7 +68,9 @@
     color: var(--primary-page-color);
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:768px)
+/*TABLET*/
+    {
     .row {
         flex-direction: row;
     }
@@ -96,3 +98,7 @@
         }
     }
 }
+
+@media screen and (min-width:1200px)
+/*DESKTOP*/
+    {}
