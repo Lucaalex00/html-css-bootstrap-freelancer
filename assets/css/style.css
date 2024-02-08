@@ -1,0 +1,16 @@
+:root {
+    --header-footer-color: rgba(44, 62, 80, 1);
+    --primary-page-color: rgba(26, 188, 156, 1);
+    --secondary-page-color: rgba(58, 84, 109, 1);
+}
+
+.debug {
+    border: 1px dashed;
+
+    .header_content_left,
+    .header_content_right {
+        width: 100px;
+        height: 100px;
+    }
+
+}
