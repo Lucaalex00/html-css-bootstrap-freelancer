@@ -1,7 +1,17 @@
+/*Utilities*/
+
 :root {
     --header-footer-color: rgba(44, 62, 80, 1);
     --primary-page-color: rgba(26, 188, 156, 1);
     --secondary-page-color: rgba(58, 84, 109, 1);
+}
+
+.fa-star {
+    font-size: 1.5rem;
+}
+
+.hidden {
+    display: none;
 }
 
 /* .debug {
@@ -15,9 +25,7 @@
 
 } */
 
-.fa-star {
-    font-size: 1.5rem;
-}
+/*HEADER*/
 
 #site_header,
 #site_footer {
@@ -28,6 +36,8 @@
         margin: auto
     }
 }
+
+/*MAIN*/
 
 #info {
     background-color: var(--secondary-page-color);
@@ -43,15 +53,29 @@
     background-color: var(--primary-page-color);
 }
 
+.card_overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(136, 134, 134, 0.8);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+
+}
+
 #contact ul li input {
     border: 0;
     border-bottom: 1px solid lightgray;
-    padding: 0.5rem 0;
 }
 
 #contact ul li:nth-child(4) input {
     border: 0;
 
+}
+
+.list-unstyled {
+    margin-top: 1rem;
 }
 
 .list-unstyled li:nth-child(4) {
@@ -72,6 +96,23 @@
 .info_bottom a {
     color: var(--primary-page-color);
 }
+
+/*ANIMATIONS*/
+a {
+    transition: 500ms;
+}
+
+a:hover {
+    background-color: rgba(211, 211, 211, 0.308);
+}
+
+.card:hover>.card_overlay {
+    display: block;
+    display: flex;
+}
+
+
+/*MEDIA*/
 
 @media screen and (min-width:768px)
 /*TABLET*/
