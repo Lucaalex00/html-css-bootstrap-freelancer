@@ -23,7 +23,7 @@
 #site_footer {
     background-color: var(--header-footer-color);
 
-    .header_container {
+    nav {
         max-width: 1200px;
         margin: auto
     }
@@ -59,7 +59,7 @@
     border-bottom: 1px solid lightgray;
 }
 
-ul li a {
+.list-unstyled li a {
     background-color: var(--primary-page-color);
 }
 
@@ -107,5 +107,9 @@ ul li a {
             width: 50px;
             height: 50px;
         }
+    }
+
+    #navbarSupportedContent {
+        flex-grow: 0;
     }
 }
