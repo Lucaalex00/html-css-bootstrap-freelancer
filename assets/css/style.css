@@ -10,9 +10,24 @@
     font-size: 1.5rem;
 }
 
+.star_line_dark,
+.star_line_light {
+    border-radius: 10px;
+    width: 100px;
+}
+
+.star_line_light {
+    border: 2px solid white;
+}
+
+.star_line_dark {
+    border: 2px solid var(--secondary-page-color);
+}
+
 .hidden {
     display: none;
 }
+
 
 /* .debug {
     border: 2px dashed;
