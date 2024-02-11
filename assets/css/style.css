@@ -52,6 +52,10 @@
     }
 }
 
+.navbar-toggler {
+    filter: invert(100%);
+}
+
 /*MAIN*/
 
 #info {
